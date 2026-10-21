@@ -2,13 +2,14 @@ import java.util.Scanner;
 public class ejer12 {
     public static void main(String[] args) {
         
-        //teniendo en cuenta que la nota final es la media de los dos examenes, para sacar la nota del segundo examen, se hace la siguiente formula:
-        //si media = (nota1 + nota2) / 2, entonces nota2 = (2 * media) - nota1
+        //teniendo en cuenta que la nota final es la 40% de la nota del primer examen y el 60% de la nota del segundo examen, 
+        //para saber lo que tengo que sacar en el segundo examen para obtener una media fina
         
         System.out.print("Inserte la nota del primer examen: ");
         Scanner s = new Scanner(System.in);
 
-        float nota1 = Float.parseFloat(s.nextLine());
+        float nota1intro = Float.parseFloat(s.nextLine());
+        float nota1 = 0.4f * nota1intro;
 
         System.out.print("Inserte la nota que quieres sacar de media final: ");
         float media = Float.parseFloat(s.nextLine());

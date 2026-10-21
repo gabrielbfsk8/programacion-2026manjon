@@ -9,7 +9,7 @@ public class ejer9 {
         System.out.print("Altura del cono?");
         float altura = Float.parseFloat(s.nextLine());
 
-        float volumen = (1/3 * (3.14f) * radio * radio * altura);
+        float volumen = (1f/3f * (3.14f) * radio * radio * altura);
 
         System.out.printf("Volumen: %.2f unidades\n", volumen);
 
