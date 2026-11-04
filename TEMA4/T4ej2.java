@@ -1,33 +1,23 @@
 import java.util.Scanner;
 
-class SentenciaSwitch {
+class T4ej2 {
     public static void main(String[] args) {
 
-        System.out.print("Por favor, introduzca un dia de la semana (1-7): ");
+        System.out.print("Por favor, introduzca una hora del dia: ");
         Scanner sc = new Scanner(System.in);
-        int dia = sc.nextInt();
-        String nombreDelDia;
+        int hora = sc.nextInt();
 
-        switch (dia) {
-            case 1:
-                nombreDelDia = "lunes";
-                break;
-            case 2:
-                nombreDelDia = "martes";
-                break;
-            case 3:
-                nombreDelDia = "miércoles";
-                break;
-            case 4:
-                nombreDelDia = "jueves";
-                break;
-            case 5:
-                nombreDelDia = "viernes ";
-                break;
-            default:
-                nombreDelDia = "No es dìa lectivo";
+        if (hora > 6 && hora < 12) {
+            System.out.println("Buenos días");
+        } else if (hora > 13 && hora < 20) {
+            System.out.println("Buenas tardes");
+        } else if (hora > 21 && hora < 23) {
+            System.out.println("Buenas noches");
+        } else if (hora > 0 && hora < 6) {
+            System.out.println("Buenas noches");
+        } 
+        else {
+            System.out.println("La hora introducida no es válida.");
         }
-
-        System.out.println("Dìa " + dia + ": " + nombreDelDia);
     }
 }
