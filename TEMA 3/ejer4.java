@@ -9,7 +9,7 @@ public class ejer4 {
         float mult = (x * y);
         float sum = (x + y);
         float sub = (x - y);
-        float frac = (x / y);
+        float frac = (x / y)
         System.out.printf("La multiplicación de esos tres números es %.2f\n", mult);
         System.out.printf("La suma de esos tres números es %.2f\n", sum);
         System.out.printf("La resta de esos tres números es %.2f\n", sub);
