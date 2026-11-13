@@ -13,13 +13,13 @@ public class T4ej20 {
 
         //si el numero tiene 1 digito, entre 1 < numero < 9
         else if (numero >= 1 && numero <= 9) {
-            System.out.print("El primer dígito del número es: " + numero);
+            System.out.print("El primer dígito del número es: \n" + numero);
         }
 
         //si el numero tiene 2 digitos, entre 10 < numero < 99
         //dividimos numero/10 para obtener el primer dígito
         else if (numero >= 10 && numero <= 99) {
-            System.out.print("El primer dígito del número es: " + (numero / 10));
+            System.out.print("El primer dígito del número es: \n" + (numero / 10) );
 
             if (numero / 10 == numero%10) {
                 System.out.print("El número es capicúa");
@@ -32,7 +32,7 @@ public class T4ej20 {
         //si el numero tiene 3 digitos, entre 100 < numero < 999
         //dividimos numero/100 para obtener el primer dígito
         else if (numero >= 100 && numero <= 999) {
-            System.out.print("El primer dígito del número es: " + (numero / 100));
+            System.out.print("El primer dígito del número es: \n" + (numero / 100));
 
             if (numero / 100 == numero%10) {
                 System.out.print("El número es capicúa");
@@ -44,7 +44,7 @@ public class T4ej20 {
         //si el numero tiene 4 digitos, entre 1000 < numero < 9999
         //dividimos numero/1000 para obtener el primer dígito   
         else if (numero >= 1000 && numero <= 9999) {
-            System.out.print("El primer dígito del número es: " + (numero / 1000));
+            System.out.print("El primer dígito del número es: \n" + (numero / 1000));
 
             if (numero / 1000 == numero%10) {
                 System.out.print("El número es capicúa");
@@ -56,7 +56,7 @@ public class T4ej20 {
         //si el numero tiene 5 digitos, entre 10000 < numero < 99999
         //dividimos numero/10000 para obtener el primer dígito
         else if (numero >= 10000 && numero <= 99999) {
-            System.out.print("El primer dígito del número es: " + (numero / 10000));
+            System.out.print("El primer dígito del número es: \n" + (numero / 10000));
 
             if (numero / 10000 == numero%10) {
                 System.out.print("El número es capicúa");
