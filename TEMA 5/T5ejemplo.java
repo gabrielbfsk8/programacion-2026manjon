@@ -23,7 +23,7 @@ public class T5ejemplo {
     //    }
     // }
 
-    for (int k = 1; k < 101; k = (2*k-1)) {
+    for (int k = 1; k < 101; k = (2*k + 1)) {
         System.out.println("IMP: " + k);
     }
 
